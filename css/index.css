@@ -5,41 +5,46 @@
     --light:     #98C1D9;
     --highlight: #EE6C4D;
     --dark:      #293241;
-
-    /* Fonts */
-    --header: Arial, Helvetica, sans-serif;
-    --text:   "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-body {
-    background-color: var(--background);
-    color: var(--dark);
-    font-family: var(--header);
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 200px;
 }
 
-.name {
-    color: var(--dark);
-    font-size: 30pt;
-}
-
-.menu {
-    background-color: var(--light);
-}
-
-.menu-item {
-    color: var(--main);
-}
-
-.bio {
+.text {
     text-align: justify;
     text-justify: inter-word;
-
-    font-size: 16pt;
-    font-family: var(--text);
-    margin: 20px 30vw;
+    
 }
+    .bio-text {
+        font-size: 16pt;
+    }
 
 .highlight {
     color: var(--highlight);
     font-weight: bold;
+}
+
+.section {
+    margin: 20px 30vw;
+}
+
+/* Card Formatting */
+.card {
+    box-shadow: 0 2px 4px 0 var(--dark);
+    transition: .25s;
+}
+    .card:hover {
+        box-shadow: 0 4px 8px 0 var(--dark);
+    }
+    .card-img {
+        margin: 5px;
+    }
+
+.slide {
+    display: none;
 }
