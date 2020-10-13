@@ -7,18 +7,14 @@
     --dark:      #293241;
 }
 
+
 .profile-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
     min-width: 200px;
-    box-shadow: 0 2px 4px 0 var(--dark);
-    transition: .25s;
 }
-    .profile-pic:hover {
-        box-shadow: 0 4px 8px 0 var(--dark);
-    }
 
 .text {
     text-align: justify;
@@ -45,6 +41,7 @@
 }
     .card:hover {
         box-shadow: 0 4px 8px 0 var(--dark);
+        cursor: pointer;
     }
     .card-img {
         margin: 5px;
@@ -64,4 +61,13 @@
 
 .buttons {
     align-items: center;
+}
+
+.logos {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social {
+    max-width: 30px;
 }
