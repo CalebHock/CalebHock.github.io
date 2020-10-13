@@ -1,0 +1,45 @@
+:root {
+    /* Color Scheme */
+    --background:#F5F5F5;
+    --main:      #3D5A80;
+    --light:     #98C1D9;
+    --highlight: #EE6C4D;
+    --dark:      #293241;
+
+    /* Fonts */
+    --header: Arial, Helvetica, sans-serif;
+    --text:   "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--dark);
+    font-family: var(--header);
+}
+
+.name {
+    color: var(--dark);
+    font-size: 30pt;
+}
+
+.menu {
+    background-color: var(--light);
+}
+
+.menu-item {
+    color: var(--main);
+}
+
+.bio {
+    text-align: justify;
+    text-justify: inter-word;
+
+    font-size: 16pt;
+    font-family: var(--text);
+    margin: 20px 30vw;
+}
+
+.highlight {
+    color: var(--highlight);
+    font-weight: bold;
+}
