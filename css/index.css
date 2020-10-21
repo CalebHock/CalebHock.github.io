@@ -71,3 +71,34 @@
 .social {
     max-width: 30px;
 }
+
+.carousel {
+    position: relative;
+}
+
+.carousel-btn {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 50%;
+    color: #808080;
+    font-size: 18pt;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+    width: 50px;
+    z-index: 1000;
+}
+
+.carousel-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.carousel-btn-prev {
+    left: -70px;
+}
+
+.carousel-btn-next {
+    right: -70px;
+}

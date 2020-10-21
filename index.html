@@ -19,6 +19,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b183dd351f.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/index.css"/>
 
     <!-- Project Slides -->
@@ -79,86 +82,85 @@
             development industry. Check out some of my projects below!
         </p>
     </div>
-
+    
     <!-- Projects Section -->
     <div id="projects" class="section">
         <h1>Projects</h1>
-        <!-- Duty Bot -->
-        <div class="card mb-3 slide default-slide">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="assets/images/test.jpg" class="card-img" alt=""/>
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Duty Bot</h5>
-                        <p class="card-text">
-                            Duty Bot is an interactive Discord bot for use of
-                            residential life departments to manage their RA staff
-                            with on call scheduling.
-                            Duty Bot is developed in 
-                            <span class="highlight">Python</span>
-                            and utilizes 
-                            <span class="highlight">SQLite</span>
-                            to manage databases.
-                        </p>
+        <div class="carousel">
+            <button class="carousel-btn carousel-btn-prev" onclick="plusDivs(-1)"><i class="fas fa-caret-left"></i></button>
+            <button class="carousel-btn carousel-btn-next" onclick="plusDivs(1)"><i class="fas fa-caret-right"></i></button>
+            <!-- Duty Bot -->
+            <div class="card mb-3 slide default-slide">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="assets/images/test.jpg" class="card-img" alt=""/>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Duty Bot</h5>
+                            <p class="card-text">
+                                Duty Bot is an interactive Discord bot for use of
+                                residential life departments to manage their RA staff
+                                with on call scheduling.
+                                Duty Bot is developed in 
+                                <span class="highlight">Python</span>
+                                and utilizes 
+                                <span class="highlight">SQLite</span>
+                                to manage databases.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <a href="https://github.com/CalebHock/duty-bot" class="stretched-link" target="_blank"></a>
             </div>
-            <a href="https://github.com/CalebHock/duty-bot" class="stretched-link" target="_blank"></a>
-        </div>
-
-        <!-- Character Creator -->
-        <div class="card mb-3 slide">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="assets/images/test.jpg" class="card-img" alt="">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Character Creator</h5>
-                        <p class="card-text">
-                            Character Creator is a website developed in
-                            <span class="highlight">Python</span> 
-                            to allow users to create D&amp;D characters.
-                            The website utilizes 
-                            <span class="highlight">SQLite</span>
-                            and
-                            <span class="highlight">Flask</span>.
-                        </p>
+            
+            <!-- Character Creator -->
+            <div class="card mb-3 slide">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="assets/images/test.jpg" class="card-img" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Character Creator</h5>
+                            <p class="card-text">
+                                Character Creator is a website developed in
+                                <span class="highlight">Python</span> 
+                                to allow users to create D&amp;D characters.
+                                The website utilizes 
+                                <span class="highlight">SQLite</span>
+                                and
+                                <span class="highlight">Flask</span>.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <a href="https://github.com/CalebHock/character-creator" class="stretched-link" target="_blank"></a>
             </div>
-            <a href="https://github.com/CalebHock/character-creator" class="stretched-link" target="_blank"></a>
-        </div>
-        
-
-        <!-- Chess -->
-        <div class="card mb-3 slide">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="assets/images/test.jpg" class="card-img" alt=""/>
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Chess</h5>
-                        <p class="card-text">
-                            Chess is a collaborative project developed in
-                            <span class="highlight">C++</span>
-                            to allow users to play one another or AI in chess.
-                        </p>
+            
+            
+            <!-- Chess -->
+            <div class="card mb-3 slide">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="assets/images/test.jpg" class="card-img" alt=""/>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Chess</h5>
+                            <p class="card-text">
+                                Chess is a collaborative project developed in
+                                <span class="highlight">C++</span>
+                                to allow users to play one another or AI in chess.
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <a href="http://github.com/aviraj55/Chess" class="stretched-link" target="_blank"></a>
             </div>
-            <a href="http://github.com/aviraj55/Chess" class="stretched-link" target="_blank"></a>
-        </div>
-
-        <div class="buttons">
-            <button class="btn btn-light" onclick="plusDivs(-1)">❮ Prev</button>
-            <button class="btn btn-light" onclick="plusDivs(1)">Next ❯</button>
         </div>
     </div>
-
+    
     <!-- Skills Section -->
     <div id="skills" class="section">
         <div class="row">
